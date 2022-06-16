@@ -34,7 +34,7 @@ export default function Home() {
 					</Group>
 
 					<Text sx={{ textAlign: 'center' }}>
-            A boilerplate with Remix, Mantine, ESLint, Prettier, Husky, Axios and React
+            A boilerplate with Remix, Mantine, ESLint, Prettier, Axios and React
 						Icons.
 					</Text>
 					<ToggleThemeButton />
