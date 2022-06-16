@@ -1,14 +1,14 @@
-import { createCookieSessionStorage } from "@remix-run/node";
+import { createCookieSessionStorage } from '@remix-run/node'
 
 const { getSession: getThemeSession, commitSession: commitThemeSession } =
   createCookieSessionStorage({
     cookie: {
-      name: "theme",
+      name: 'theme',
       httpOnly: true,
-      path: "/",
-      sameSite: "lax",
+      path: '/',
+      sameSite: 'lax',
       secure: true,
     },
-  });
+  })
 
-export { getThemeSession, commitThemeSession };
+export { getThemeSession, commitThemeSession }
